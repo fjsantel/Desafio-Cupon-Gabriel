@@ -1,0 +1,68 @@
+*{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: Roboto;
+}
+.border-success {
+    border-color: #5c6360 !important;
+  }
+.row{
+   display: inline-flex;
+    --bs-gutter-y: 1.5rem;
+  }
+div.row{
+    margin-top: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 3px;
+    overflow:hidden ;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.precio{
+    text-align:right;
+}
+div.mb-3{
+    margin-top: 20px;
+}
+.mx-auto{
+    margin-bottom: 10px;
+}
+.card-title{
+    font-size: 25px;
+}
+.card-footer{
+    padding: 0px;
+    background-color: white;
+}
+.card-body{
+    padding: 4%;
+}
+.precio1{
+    text-align: right;
+    position: relative;
+}
+.color-box{
+    background-color: green;
+}
+.color-text{
+    color: white;
+    font-family: Roboto;
+    font-size: 21pt;
+    text-align: center;
+}
+.p.d-inline-flex.p-2.text-muted{
+    font-size: 16pt;
+}
+.precio1{
+    font-size: 20pt;
+    font-family: Roboto;
+    color: green;
+}
